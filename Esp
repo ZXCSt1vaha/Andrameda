@@ -21,11 +21,11 @@ local esp = {
     font = 2,
     maxdist = 0,
     settings = {
-        name = {enabled = false, outline = true, displaynames = true, color = Color3fromRGB(255, 255, 255)},
-        box = {enabled = false, outline = true, color = Color3fromRGB(255, 255, 255)},
-        filledbox = {enabled = false, outline = true, transparency = 0.5, color = Color3fromRGB(255, 255, 255)},
-        distance = {enabled = false, outline = true, color = Color3fromRGB(255, 255, 255)},
-        viewangle = {enabled = false, size = 10, color = Color3fromRGB(255, 255, 255)},
+        name = {enabled = true, outline = true, displaynames = true, color = Color3fromRGB(255, 255, 255)},
+        box = {enabled = true, outline = true, color = Color3fromRGB(255, 255, 255)},
+        filledbox = {enabled = true, outline = true, transparency = 0.5, color = Color3fromRGB(255, 255, 255)},
+        distance = {enabled = true, outline = true, color = Color3fromRGB(255, 255, 255)},
+        viewangle = {enabled = true, size = 10, color = Color3fromRGB(255, 255, 255)},
     },
     settings_chams = {
         enabled = false,
