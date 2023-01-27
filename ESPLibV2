@@ -26,16 +26,16 @@ local esp = {
     font = 2,
     maxdist = 0,
     settings = {
-        name = {enabled = true, outline = true, displaynames = true, color = Color3fromRGB(255, 255, 255)},
-        box = {enabled = true, outline = true, color = Color3fromRGB(255, 255, 255)},
+        name = {enabled = false, outline = true, displaynames = true, color = Color3fromRGB(255, 255, 255)},
+        box = {enabled = false, outline = true, color = Color3fromRGB(255, 255, 255)},
         filledbox = {enabled = false, outline = true, transparency = 0.5, color = Color3fromRGB(255, 255, 255)},
-        healthbar = {enabled = true, size = 3, outline = true},
-        healthtext = {enabled = true, outline = true, color = Color3fromRGB(255, 255, 255)},
-        distance = {enabled = true, outline = true, color = Color3fromRGB(255, 255, 255)},
-        viewangle = {enabled = true, size = 6, color = Color3fromRGB(255, 255, 255)},
-        skeleton = {enabled = true, color = Color3fromRGB(255, 255, 255)},
-        tracer = {enabled = true, origin = "Middle", color = Color3fromRGB(255, 255, 255)},
-        arrow = {enabled = true, radius = 100, size = 25, filled = false, transparency = 1, color = Color3fromRGB(255, 255, 255)}
+        healthbar = {enabled = false, size = 3, outline = true},
+        healthtext = {enabled = false, outline = true, color = Color3fromRGB(255, 255, 255)},
+        distance = {enabled = false, outline = true, color = Color3fromRGB(255, 255, 255)},
+        viewangle = {enabled = false, size = 6, color = Color3fromRGB(255, 255, 255)},
+        skeleton = {enabled = false, color = Color3fromRGB(255, 255, 255)},
+        tracer = {enabled = false, origin = "Middle", color = Color3fromRGB(255, 255, 255)},
+        arrow = {enabled = false, radius = 100, size = 25, filled = false, transparency = 1, color = Color3fromRGB(255, 255, 255)}
     },
     settings_chams = {
         enabled = false,
