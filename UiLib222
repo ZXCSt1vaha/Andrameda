@@ -2684,11 +2684,11 @@ function Library:CreateWindow(...)
     if type(...) == 'table' then
         Config = ...;
     else
-        Config.Title = "1"
+        Config.Title = Arguments[1]
         Config.AutoShow = Arguments[2] or false;
     end
-
-    if type(Config.Title) ~= 'string' then Config.Title = 'No title' end
+    local NameCheat = '' 
+    if type(Config.Title) ~= 'string' then Config.Title = NameCheat end
 
     if typeof(Config.Position) ~= 'UDim2' then Config.Position = UDim2.fromOffset(175, 50) end
     if typeof(Config.Size) ~= 'UDim2' then Config.Size = UDim2.fromOffset(550, 600) end
